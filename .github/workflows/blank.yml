@@ -33,8 +33,8 @@ jobs:
           remote_addr=https://${user_name}:${{ secrets.GT }}@${remote_addr}
           git status
           git diff
-          git config  user.name "yaocccc"
-          git config  user.email "flyforest@outlook.com"
+          git config  user.name "SuceV587"
+          git config  user.email "419249629@qq.com"
           git remote add action ${remote_addr}
           git add --all
           git commit -m "BY:GITHUB ACTION -- $(date '+%Y/%m/%d %H:%M')"
